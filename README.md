@@ -52,4 +52,4 @@ Crash Twinsanity, Crash Bandicoot and their characters are trademarks of their o
 
 ## License
 
-MIT, see `LICENSE`. `engine/` carries its own MIT notice. `game/` is twinsanity-reversed, included with its author's permission; its terms are its author's. A built `reNsanity.nro` links FFmpeg built with GPL components, so a distributed binary falls under the GNU GPL.
+MIT, see `LICENSE`. `engine/` carries its own MIT notice. `game/` is twinsanity-reversed, included with its author's permission; its terms are its author's (see `game/NOTICE`). A built `reNsanity.nro` links FFmpeg built with GPL components, so a distributed binary falls under the GNU GPL.
