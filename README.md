@@ -1,4 +1,4 @@
-# reNsanity
+<p align="center"><img src=".github/logo.png" alt="reNsanity" width="600"></p>
 
 reNsanity è un progetto spontaneo, guidato dalla passione e voglia di scoperta. Ci tengo a lasciare che il prossimo giochi e si lasci affascinare. reNsanity è il porting su Nintendo Switch di Crash Twinsanity PS2. Spero vi divertiate, mi sono preso del tempo per fare texture personalizzate, si può scegliere se accenderle o meno, grazie.
 
