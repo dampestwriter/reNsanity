@@ -1,0 +1,11 @@
+file(GLOB TE_HOST_SOURCES CONFIGURE_DEPENDS "${CMAKE_CURRENT_SOURCE_DIR}/host/*.cpp")
+add_library(te_platform_host STATIC ${TE_HOST_SOURCES})
+target_include_directories(te_platform_host PUBLIC "${CMAKE_CURRENT_SOURCE_DIR}/host" "${CMAKE_CURRENT_SOURCE_DIR}" "${TE_GEN}/seam" "${TE_ENGINE}")
+target_compile_options(te_platform_host PRIVATE -Wall -Wextra)
+target_compile_definitions(te_platform_host PUBLIC TE_HAVE_SDL_INPUT=1)
+target_link_libraries(te_platform_host PUBLIC nativeee_libs)
+add_dependencies(te_platform_host te_seam)
+
+add_library(te_seam_stubs STATIC "${TE_GEN}/seam/seam_stubs.cpp")
+target_include_directories(te_seam_stubs PUBLIC "${TE_GEN}/seam")
+add_dependencies(te_seam_stubs te_seam)

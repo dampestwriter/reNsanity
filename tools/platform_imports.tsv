@@ -1,0 +1,14 @@
+ps2e_gfx2_texture_loaded	s32	u32:texture,u32:header,u32:image,s32:size
+ps2e_gfx2_texture_released	void	u32:texture
+ps2e_gfx2_frame_reset	void	s32:movie
+ps2e_gfx2_text_quads	void	u32:material,u32:quads,s32:count
+ps2e_gfx2_text_item	void	u32:text,f32:x,f32:y,s32:alignment
+ps2e_gfx2_model_loaded	void	u32:model,s32:index,s32:count,u32:packet,s32:size,s32:vertices
+ps2e_gfx2_model_released	void	u32:model
+ps2e_gfx2_draw_sky	void	u32:sky,u32:view,u32:camera
+ps2e_gfx2_skin_loaded	void	u32:skin,s32:index,s32:count,u32:packet,s32:size,s32:vertices
+ps2e_gfx2_skin_released	void	u32:skin
+ps2e_gfx2_blend_skin_released	void	u32:skin
+ps2e_gfx2_platform_texts	s32	u32:out,s32:max
+ps2e_cache_prefetch	void	u32:address
+ps2e_gfx2_tick_options	u32	

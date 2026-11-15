@@ -1,0 +1,8 @@
+if(NOT DEFINED ENV{DEVKITPRO})
+    if(EXISTS "/opt/devkitpro/cmake/Switch.cmake")
+        set(ENV{DEVKITPRO} "/opt/devkitpro")
+    else()
+        message(FATAL_ERROR "reNsanity: DEVKITPRO is not set and /opt/devkitpro has no cmake/Switch.cmake (install devkitPro's switch-dev)")
+    endif()
+endif()
+include("$ENV{DEVKITPRO}/cmake/Switch.cmake")

@@ -1,0 +1,4 @@
+/build/
+/out/
+/tools/toolchain/
+__pycache__/
