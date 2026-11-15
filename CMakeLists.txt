@@ -236,5 +236,5 @@ target_link_options(reNsanity PRIVATE -Wl,--wrap=__syscall_thread_create,--wrap=
 target_link_options(reNsanity PRIVATE -Wl,--wrap=_malloc_r,--wrap=_free_r,--wrap=_memalign_r,--wrap=_calloc_r)
 target_link_libraries(reNsanity PRIVATE tegame -Wl,--whole-archive te_platform_host -Wl,--no-whole-archive nativeee_libs te_seam_stubs)
 
-nx_generate_nacp(reNsanity.nacp NAME "reNsanity" AUTHOR "xwrtr" VERSION "1.0.0")
+nx_generate_nacp(reNsanity.nacp NAME "reNsanity" AUTHOR "dampestwriter" VERSION "1.0.0")
 nx_create_nro(reNsanity NACP reNsanity.nacp ICON "${CMAKE_SOURCE_DIR}/runner/icon.jpg")

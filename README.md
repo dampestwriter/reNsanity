@@ -4,7 +4,7 @@ reNsanity è un progetto spontaneo, guidato dalla passione e voglia di scoperta.
 
 *reNsanity is a spontaneous project, driven by passion and the wish to discover. I want the next person to play it and be fascinated. reNsanity is the Nintendo Switch port of Crash Twinsanity for the PS2. I hope you have fun; I took the time to make custom textures, and you can choose whether to turn them on. Thank you.*
 
-— xwrtr
+— dampestwriter
 
 ## What you need
 
@@ -42,7 +42,7 @@ Optional, from [reNsanity-texpack](https://github.com/dampestwriter/reNsanity-te
 
 ## Credits
 
-- **xwrtr** — project lead and port director; testing, review, art direction, quality and performance.
+- **dampestwriter** — project lead and port director; testing, review, art direction, quality and performance.
 - **twinsanity-reversed** by Smartkin — the Crash Twinsanity decompilation (`game/`, github.com/Smartkin/twinsanity-reversed), included with the author's permission.
 - **TwinsanityEvolved** — the native port this work started from.
 - **NativeEE** — the PS2 engine (`engine/`, MIT, see `engine/LICENSE`).
